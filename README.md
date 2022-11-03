@@ -23,6 +23,8 @@ Firstly let’s know about Tripto. Tripoto is a travel Booking website, for prov
 #### Chakra UI (UI Styling Library).
 #### For authentication: Google firebase authentication.
 
+[video.webm](https://user-images.githubusercontent.com/105931703/194463370-a6c8efa1-d8d4-4d56-8d97-e36c713bf074.webm)
+
 ## Run Code Locally
 npm install
 npm start
