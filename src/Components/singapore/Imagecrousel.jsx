@@ -7,7 +7,7 @@ import { ImageCrouselWrapper } from '../../styles/singapore.styled';
 const Imagecrousel = () => {
   const [image,setImage]=useState([])
   useEffect(()=>{
-    axios.get("https://avdhoot-fake-api.herokuapp.com/singapore").then((res)=>{
+    axios.get("https://tripoto-clone.onrender.com/singapore").then((res)=>{
        setImage(res.data[0].ImgeCrousel)
     })
   },[])

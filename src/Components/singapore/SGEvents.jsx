@@ -4,7 +4,7 @@ import { EventImageWrapper, SGEventWrapper } from '../../styles/sgevents.styled'
 const SGEvents = () => {
   const [data,setData]=useState([]);
   useEffect(()=>{
-    axios.get("https://avdhoot-fake-api.herokuapp.com/Singapore").then((res)=>{
+    axios.get("https://tripoto-clone.onrender.com/Singapore").then((res)=>{
       setData(res.data[0].Events)
     })
   },[]);

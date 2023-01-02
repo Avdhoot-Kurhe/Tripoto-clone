@@ -1,8 +1,8 @@
-https://avdhoot-fake-api.herokuapp.com/partnerships
-https://avdhoot-fake-api.herokuapp.com/trip
-https://avdhoot-fake-api.herokuapp.com/india
-https://avdhoot-fake-api.herokuapp.com/hotels
-https://avdhoot-fake-api.herokuapp.com/bookhotels
-https://avdhoot-fake-api.herokuapp.com/Singapore
-https://avdhoot-fake-api.herokuapp.com/Comprehensive
-https://avdhoot-fake-api.herokuapp.com/Package
+https://tripoto-clone.onrender.com/partnerships
+https://tripoto-clone.onrender.com/trip
+https://tripoto-clone.onrender.com/india
+https://tripoto-clone.onrender.com/hotels
+https://tripoto-clone.onrender.com/bookhotels
+https://tripoto-clone.onrender.com/Singapore
+https://tripoto-clone.onrender.com/Comprehensive
+https://tripoto-clone.onrender.com/Package

@@ -14,7 +14,7 @@ const Comprehensive = () => {
   const [packag, setPackage] = useState([]);
   useEffect(() => {
     axios
-      .get(" https://avdhoot-fake-api.herokuapp.com/Comprehensive")
+      .get(" https://tripoto-clone.onrender.com/Comprehensive")
       .then((res) => {
         setPackage(res.data);
       });

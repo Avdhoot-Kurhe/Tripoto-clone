@@ -7,7 +7,7 @@ import { TopTravelCarousel } from './TopTravelCarousel';
 function SingleCardPage() {
     const params=useParams([])
     const [sPage,setSPage] =useState([]);
-    const getPageData =()=>axios.get(`https://avdhoot-fake-api.herokuapp.com/partnerships/${params.id}`)
+    const getPageData =()=>axios.get(`https://tripoto-clone.onrender.com/partnerships/${params.id}`)
                             .then(r=>setSPage(r.data)).catch(err=>console.log(err));
     useEffect(()=>{
         getPageData();

@@ -17,7 +17,7 @@ const IndiaCarousel = () => {
 
   useEffect(() => {
     axios
-      .get("https://avdhoot-fake-api.herokuapp.com/india")
+      .get("https://tripoto-clone.onrender.com/india")
       .then((res) => {
         setState(res.data);
       })

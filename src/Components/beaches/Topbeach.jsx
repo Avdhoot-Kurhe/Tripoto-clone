@@ -9,7 +9,7 @@ const Topbeach = () => {
     const [topBeach, setTopBeach] = useState([]);
     useEffect(() => {
         axios
-          .get("https://avdhoot-fake-api.herokuapp.com/singapore")
+          .get("https://tripoto-clone.onrender.com/singapore")
           .then((res) => {
             setTopBeach(res.data[0].TopBeaches);
           });

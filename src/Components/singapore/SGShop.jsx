@@ -10,7 +10,7 @@ const SGShop = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://avdhoot-fake-api.herokuapp.com/singapore").then((res) => {
+    axios.get("https://tripoto-clone.onrender.com/singapore").then((res) => {
       setData(res.data[0].SGShop);
     });
   }, []);

@@ -17,7 +17,7 @@ const TripCarousel = () => {
 
   useEffect(() => {
     axios
-      .get("https://avdhoot-fake-api.herokuapp.com/trip")
+      .get("https://tripoto-clone.onrender.com/trip")
       .then((res) => {
         setState(res.data);
       })

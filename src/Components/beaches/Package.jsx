@@ -23,7 +23,7 @@ const Package = () => {
   const [packag, setPackage] = useState([]);
   useEffect(() => {
     axios
-      .get("https://avdhoot-fake-api.herokuapp.com/Package")
+      .get("https://tripoto-clone.onrender.com/Package")
       .then((res) => {
         setPackage(res.data);
       });

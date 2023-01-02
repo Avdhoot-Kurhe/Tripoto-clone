@@ -7,7 +7,7 @@ function PackageFirstSection() {
   const [data, setData] = useState([]);
   const getData = () => {
     return axios
-      .get("https://avdhoot-fake-api.herokuapp.com/bookhotels")
+      .get("https://tripoto-clone.onrender.com/bookhotels")
       .then((res) => {
         setData(res.data);
         // console.log(res.data);

@@ -17,7 +17,7 @@ const PartnershipCaraousel = () => {
 
   useEffect(() => {
     axios
-      .get("https://avdhoot-fake-api.herokuapp.com/partnerships")
+      .get("https://tripoto-clone.onrender.com/partnerships")
       .then((res) => {
         setState(res.data);
       })

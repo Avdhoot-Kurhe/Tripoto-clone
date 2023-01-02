@@ -52,7 +52,7 @@ export default function TripPage(){
         getData();
     },[id])
 
-function getData(){ axios.get(`https://avdhoot-fake-api.herokuapp.com/bookhotels/${id}`).then((res)=>{setData(res.data);fillForm2(res.data)})
+function getData(){ axios.get(`https://tripoto-clone.onrender.com/bookhotels/${id}`).then((res)=>{setData(res.data);fillForm2(res.data)})
                 
 }
 // console.log(formValue1)

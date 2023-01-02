@@ -20,7 +20,7 @@ const Beach = () => {
   const [vlogData, setVlogData] = useState([]);
   useEffect(() => {
     axios
-      .get("https://avdhoot-fake-api.herokuapp.com/singapore")
+      .get("https://tripoto-clone.onrender.com/singapore")
       .then((res) => {
         setBeachgrid(res.data[0].TopBeach);
         setVlogData(res.data[0].VlogBeach);
